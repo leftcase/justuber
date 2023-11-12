@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terminal-like Page</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: monospace;
+            font-size: 16px;
+            line-height: 1.2;
+            padding: 20px;
+            margin: 0;
+        }
+        .terminal {
+            border: 1px solid white;
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="terminal">
+        <pre>
+$ Just Uber
+$ -----------------------------------
+$ ls -l
+total 16
+-rw-r--r-- 1 user user   132 Nov 12 10:00 index.html
+-rw-r--r-- 1 user user   543 Nov 12 10:30 style.css
+-rw-r--r-- 1 user user  1234 Nov 12 11:00 script.js
+$ echo "Hello, Visitor"
+Hello, Visitor!
+$ 
+        </pre>
+    </div>
+</body>
+</html>
